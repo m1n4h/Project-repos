@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-position: center;
+    background-size: cover;
+    background: url(123.jpg);
+    height: 90vh;
+    font-family: sans-serif;
+
+    .login {
+        width: 280;
+        height: 370px;
+        position: absolute;
+        background: #000;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 40px 25px;
+        border-radius: 10px;
+    }
+    h1{
+    	text-align: center;
+    	margin: 0px;
+    	padding: 0 0 20px;
+    	font-size: 22px;
+
+    }
+
+    .login h1 {
+        background-color: tomato;
+        border-radius: 6PX;
+        font-weight: bold;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .login input{
+        width: 100%;
+        margin-bottom: 18px;
+        border-radius: 4px;
+    }
+    .login input[type="text"], input[type="password"] 
+    {
+    	background: transparent;
+    	border: none;
+    	border-bottom: 2px solid #fff;
+    	color: #fff;
+    	outline: none;
+    	height: 20px;
+    	font-size: 16px;
+
+
+    }
+    .login input[type="submitt"]
+    { outline: none;
+    	border:none;
+    	height: 30px;
+    	text-align: center;
+    	color: #fff;
+    	background:#000;
+    	font-size:17px ;
+    	border-radius: 20px;
+
+    }
+    .login input[type="submitt"]:hover
+    {
+    	background: #fff;
+    	color: #000;
+    	font-weight: bold;
+    	cursor: none
+    }
+    .login a{
+    	color: tomato;
+    	text-decoration: none;
+    	line-height: 18px;
+    	font-size: 14px;
+
+    }
+    .login a:hover{
+    	color: white;
+    }

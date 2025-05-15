@@ -1,0 +1,125 @@
+<!DOCTYPE html<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FORM</title>
+    <style>
+        body{
+			background-size: cover;
+			background-color: grey;
+			background-position: relative;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.navbar {
+    background-color: rgba(0, 100, 0);
+    text-align: left;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+}
+
+.navbar ul li {
+    width: 120px;
+    margin: 15px;
+    padding:0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.active,
+.navbar ul li:hover {
+    background-color: orange;
+    border-radius: 20px;
+}
+h1{
+	color: orange;
+	font-size: 30px;
+	font-family: Arial;
+}
+	.main{
+		display: flex;
+		width: 60%;
+		height: auto;
+		background-size: cover;
+		position: relative;
+		margin-top: 90px;
+		margin-left: 450px;
+
+	}
+	.form{
+		width: 30%;
+		height: auto;
+		float: left;
+		background-color: white;
+
+
+
+	}
+	.ami{
+		width: 30%;
+		height: auto;
+		float: right;
+		background-color: blue;
+    }
+	.amin{
+		color: white;
+		font-size: 20px;
+	}
+	
+
+
+
+	</style>
+</head>
+
+<body>
+	<div class="navbar">
+		<ul>
+			<li class="active"> <a href="#">Home</a></li>
+			<li><a href="#">About us</a></li>
+			<li><a href="#">service</a></li>
+			<li><a href="#">Design</a></li>
+			<li><a href="#">contact</a></li>
+		</ul>
+	</div>
+    <div class="main">
+        <div class="form">
+            <form>
+                <div>
+                    <h1>contact</h1>
+                    <p>*Requeired</p>
+                </div>
+                <input type="text" name="name" placeholder="Name*">
+                <br><br>
+                <input type="email" name="email" placeholder="email*">
+                <br><br>
+                <input type="text" name="Company" placeholder="Company">
+                <br><br>
+                <input type="number" name="Number" placeholder="phone">
+                <br><br>
+                <input type="text" name="message" placeholder="message">
+                <br><br>
+                <input type="submitt" class="an" name="submitt" placeholder="submitt">
+            </form>
+        </div>
+        <div class="ami">
+            <h1>Let's Chat</h1>
+            <p class="amin">wher you have question, what to start a project or simply want to connect.</p>
+            <p class="amin">Feel Free tp send me a message in the contact form</p>
+        </div>
+    </div>
+</body>
+
+</html>

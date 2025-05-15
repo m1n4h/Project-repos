@@ -1,0 +1,124 @@
+body {
+    background-size: cover;
+    background-image: url("images/beach-stones.svg");
+    main-height: 100px;
+    height: 100;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    float: right;
+    overflow: hidden;
+    margin-right: 10px;
+    font-size: 222 0px;
+
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li,
+a {
+    text-decoration: none;
+    color: #ccffff;
+    padding: 5px 20px;
+    width: auto;
+    height: 5px;
+
+
+}
+
+ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul li.active.a {
+    color: black;
+    background-color: white;
+}
+
+.title {
+    color: #ffcc99;
+    font-size: 30px;
+    float: center;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.botton {
+    margin-left: 100px;
+    font-size: 30px;
+
+
+    padding: 5px 20px;
+    text-decoration: none;
+
+    .btn {
+        color: blue;
+        border: 1px solid white;
+        border-collapse: collapse;
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        color: black;
+        background-color: white;
+    }
+
+    btn a.active.a {
+        color: black;
+        background-color: white;
+    }
+
+    .sabu-menu {
+        display: none;
+        top: 6%;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .sabu-menu ul {
+
+        position: absolute;
+
+    }
+
+    .main ul li:hover.sabu-menu {
+        display: block;
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+
+    .main ul li:hover.sabu-menu ul {
+        display: block;
+        margin: 6px;
+
+
+    }
+
+    .main ul li:hover.sabu-menu ul li {
+        background-color: white;
+        width: 50px;
+        padding: 5px 20px;
+        color: black;
+        border-bottom: white;
+        border-radius: 0px;
+    }
+
+
+    #fm {
+        background-color: black;
+        margin-right: 400px;
+        
+    }

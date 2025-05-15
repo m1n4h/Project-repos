@@ -1,0 +1,59 @@
+body {
+    background-size: cover;
+    background-image: url("images/beach-stones.svg");
+    main-height: 100px;
+    height: 100;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    color: orangered;
+    float: left;
+    font-size: 30px;
+
+}
+
+.main{
+    background-color: burlywood;
+}
+
+ul {
+    float: right;
+    text-align: center;
+    display: flex;
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+
+}
+
+ul li,
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    width: auto;
+    height: 5px;
+}
+
+ul li a:hover {
+  color: red;
+  background-color: black;
+
+}
+
